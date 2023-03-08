@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-about-cont {
+    background-image: url('https://media.istockphoto.com/id/1206137806/photo/shish-kebab-with-various-vegetables-and-spice-country-potatoes.jpg?s=612x612&w=0&k=20&c=z3eRAJHr1CFG_6BHR8vNNO4pR6uKV_PuHHFkdiEH9aE=');
+    background-size: cover;
+    color: #efe8e8;
+    min-height: 100vh;
+}
+
+.logo{
+    height: 100px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.nav-items {
+    color: #e1d7d7;
+    font-size: 20px;
+}
+
+.about-cont {
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 700px;
+}
+
+.red-h1 {
+    color: #f12142;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 60px;
+    font-style: italic;
+    margin: 10px 0 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: animtext 4s steps(80, end); 
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+@keyframes animtext { 
+  from {
+      width: 0;
+     transition: all 2s ease-in-out;
+  } 
+}
+
+.red-p {
+    font-size: 35px;
+}
+
+.menu-cont {
+    text-align: center;
+    background-color:rgb(230, 224, 217);
+}
+
+.menu-h1 {
+    color: #f12142;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.services-cont {
+    background-image: url("https://media.istockphoto.com/id/164646124/photo/burning-chili-pepper-fire-flame.jpg?s=612x612&w=0&k=20&c=80CoHWcjAd_u7t4Pzob3_1z2W04X5Poe_dCWX4LcD3M=");
+    padding-bottom: 40px;
+    background-size: cover;
+}
+
+.services-h1 {
+    color: #f12142;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.contact-cont {
+   padding-bottom: 40px;
+}
+
+.contact-h1{
+   color: #f12142;
+   font-weight: bold;
+   letter-spacing: 4px;
+   font-size: 40px;
+   font-style: italic;
+}
+.name-cont{
+  padding-left: 30px;
+}
+.contact-about-cont{
+   background-color: rgb(230, 224, 217);
+}
+.buttonx{
+    margin-left:15px ;
+}
+.about-h1{
+   color: #f12142;
+   font-weight: bold;
+   letter-spacing: 4px;
+   font-size: 40px;
+   font-style: italic;
+}
+
+.aboutus-cont {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-style: italic;
+    color: #000000;
+}
+.f-log{
+    border-style: solid;
+    border-width: 0px;
+    color: #070707;
+    border-radius: 40px;
+    margin: 10px;
+}
+    
